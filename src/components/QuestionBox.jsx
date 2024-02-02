@@ -35,7 +35,7 @@ export default function QuestionBox() {
   const moveQuestion = questions[CurrentQus];
   return (
     <ThemeContext.Provider value={theme}>
-      <img id="logo" src="src/assets/science.png" alt="" />
+      <img id="logo" src="src/components/Assets/science.png" alt="" />
       <div className="Quiz-Container">
         {moveQuestion && (
           <div id="Box" style={{ backgroundColor: theme === 'dark' ? '#6e6969ff' : '#000000' }}>
